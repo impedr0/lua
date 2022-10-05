@@ -1,0 +1,11 @@
+-------------
+number01 = 6
+-------------
+
+if number01 < 0 or number01 > 10 then
+    print("invalid number")
+elseif number01 >= 6 then
+    print("pass")
+elseif number01 > 0 and number01 < 6 then
+    print("fail")
+end
